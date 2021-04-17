@@ -1,0 +1,183 @@
+DB 
+UML 
+
+
+Question 
+
+
+UML diagrams vs coding 
+
+flowchart 
+DFD
+class diagram 
+sequence diagram 
+context diagram 
+usecase diagram 
+activity 
+collaboration diagram 
+state diagram
+chart diagram 
+
+Development 
+Water Fall 
+RA
+---|
+   | DES
+	---|
+	   | IMPL
+		---|
+	   	   |Test 
+			---|
+	   	   	   | deliver 
+		
+ 
+2003 - after 6 months, 13 sep 
+2010 - cloud HPE 
+
+Agile 
+2021 - native cloud - 1 to 3 weeks (sprint)
+
+BDD - Behavioural Driven Development 
+
+
+abhinav 
+trade off sql / nosql 
+
+
+story 1 
+FB/LINKEDIN - Follow Me - i write post - since you follow me - you need to get notification 
+
+story 1 
+FB/LINKEDIN - Follow Me - i write post - since you follow me - you did not to get notification 
+--------------------------------------------------------
+
+
+
+Sapient - you work for sapient - sapient pays salary - salary get credited 
+
+Sapient - you work for sapient - sapient pays salary - salary did not get credited 
+
+
+OOPS 
+
+class Customer {
+	private int custId; 
+	private String custName; 
+	private double custSal; 
+	// some more methods 
+}
+
+1. association 
+class Customer {
+	private int custId; 
+	private String custName; 
+	private double custSal; 
+	private Address address; 
+}
+
+
+
+class Employee {
+	private int empId; 
+	private String empName; 
+	private double empSal; 
+	private Address address; 	 
+}
+
+
+class ProjectManager extends Employee{
+	private List<Employes> worksUnder; 
+}
+
+
+
+
+class Address {
+	private int hNo; 
+	private String street; 
+	private String city; 
+	private int pin; 
+}
+
+
+
+
+
+
+
+
+
+Customer anurag = new Customer(); 
+
+
+integrity contstrains 
+referential constratins 
+not null 
+unique 
+ACID 
+
+MySQL - DB MS 
+Oracle - DB MS 
+
+vs 
+
+hadoop 
+
+
+Mongo DB  = 80 % 
+Cassandara - db
+redis -db - cache engine 
+cauch - db 
+
+
+
+Usecase diagram 
+Class Diagram 
+Sequence Diagram 
+Context Diagram 
+
+
+
+
+13-mar-2021
+nithin - 3 days 
+sachin - 7 days 
+abhinav - 5 days 
+kanika - 5 days 
+
+
+
+Story: Super User login 
+
+AC1: 
+GIVEN login credentials 
+WHEN the credentials are valid 
+THEN retailer to be routed to home page 
+AND show links 1. Create Zone 2. Create Cluster 3. Create Store 4. View Cluster/s
+     5. View Zone/s
+	 
+
+JavaScript + HTML + CSS 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        var x = 100; // global 
+
+        function hi() {
+            y = 200; // becomes global from this point onwards 
+            var z = 300; // is local to the function 
+
+            for (let i = 0; i < 5; i++) {
+                console.log("Value of i is ", i);
+            }
+
+            // console.log("Value of i outside ", i)
+
+            const objval = 10;
+            console.log(objval);
+            // objval = 20;
+            // console.log(objval);
+            // let x = 3000;
+            console.log("log of  x " + x);
+
+
+            console.log("log of interal x " + x);
+
+
+
+            let xx = 123;
+            {
+                let xx = 234;
+                console.log(xx);
+                {
+                    let xx = 444;
+                    console.log(xx);
+                }
+            }
+            console.log(xx);
+
+
+        }
+
+        function getDiv() {
+            // let x = document.querySelector(".mydiv")
+            // let x = document.getElementById("mydiv")
+            let xx = document.querySelectorAll("div");
+            console.log(xx);
+        }
+
+    </script>
+
+</head>
+
+<body>
+    <script>
+        hi();
+        console.log("Value of x is ", x);
+        console.log("Value of y is ", y);
+        // console.log("Value of z is ", z);
+
+
+    </script>
+
+
+    <div>
+        For Testing.
+    </div>
+    <div>
+        For Testing.
+    </div>
+
+</body>
+
+</html>

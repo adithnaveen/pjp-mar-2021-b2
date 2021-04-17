@@ -1,0 +1,206 @@
+basics of java 
+jUnit - 5(Jupiter)
+mockito 
+SOLID 
+
+
+Questions ? 
+
+DI / IOC - Nitin 
+jUnit has more presence 
+	why we use anything like mockito - soumya 
+
+
+class ListMockTest{
+	@Test 
+	public void testMockList() {
+		List listMock = mock(List.class); 
+		when(listMock.size()).thenReturn(10); 
+		assertEquals(10, listMock.size()); 
+	}
+	
+	@Test 
+	public void testMultipleMocks() {
+		List listMock = mock(List.class); 
+		when(listMock.size()).thenReturn(10).thenReturn(20); 
+		assertEquals(10, listMock.size()); 
+		assertEquals(20, listMock.size()); 
+	}
+}
+
+class ListTest{
+	@Test
+	public void testList() {
+		List list = new ArrayList(); 
+		list.add(10); 
+		assertEquals(1, list.size())
+	}
+}
+
+
+
+
+	
+	
+	
+Which methods make static v/s non static 
+JDK8 - Eclipse Mars 
+Which JDK which version of Eclipse - 
+
+JDK 10 - its prices 
+
+6 Months there is a release (Mar - Sep)
+
+2014 
+	- Ruby 
+	- Groovy 
+	- R 
+	- Kotlin 
+
+2016-17 
+	- Java 8 
+	
+E
+G
+H
+I
+J
+K
+L
+M
+N
+O
+P
+ECLIPSE 2021-03
+ECLIPSE 2021-09
+
+
+Java 9 - Jigsaw project 
+var x = 10; 
+
+
+
+
+
+
+
+
+
+
+
+class Employee {
+	private int empId; 
+	private String empName;
+	
+	// this is stored at class level, and you dont have to create a 
+	// instance of it to access 
+	 static int empIdCounter=101; 
+	 
+	// getters and setters 
+}
+
+
+class MyExample {
+	public static void main(String args[]) {
+		System.out.println(Employee.empIdCounter); 
+		Employee e = new Employee(); 
+		e.setEmpId(Employee.empIdCounter++); 
+		e.setEmpName("Bhavya");
+		
+		Employee e1 = new Employee(); 
+		e1.setEmpId(Employee.empIdCounter++); 
+		e2.setEmpName("Sachin");
+		
+		
+		System.out.println(e.getEmpId()); 
+		System.out.println(e1.getEmpId()); 		
+		
+		Employee e2 = new Employee(); 
+		Employee e3 = new Employee(); 
+	}
+}
+
+
+
+
+Java
+Chrome
+Safari
+WinWord
+Excel
+
+
+S - single responsibility principle  
+	one class should have 1 responsible - component / method 
+	
+
+
+	
+
+	 class Detail{
+	     // 1 get details from external resource 
+	     getProperty(){
+	         Properties prop = new Properties(); 
+
+	         prop.load(new FileInputStream("db.properties"));
+	         return prop;
+	     }
+	 }
+	 class externalDriver{
+	     loadExternalDriver(){
+	         Detail details = new Detail()
+	         Properties prop = details.getProperty();
+	         //2. loading external driver 
+	         Class.forName("com.mysql.jdbc.Driver"); 
+	         String url = prop.getProperty("url"); 
+	         String user = prop.getProperty("user"); 
+	         String password = prop.getProperty("password");
+	     }
+	 }
+	 interface GetConnection{
+	     public boolean getMyConnection()
+
+	 }
+	 class MySQLConnection implement GetConnection{
+	     public boolean getMyConnection{
+
+	         Connection con = DriverManager.getConnection(url, user, password); 
+	         // 3 check connection is successfull 
+	         if(con != null) {
+	         return true;
+	         }
+
+	         return false; 
+	     }
+	 }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+O - open/close principle 
+L - liskow 
+I - interface segregation principle 
+D - DI/IOC 
+
+
+
+
+
+
+
+
+
+
+
+
+

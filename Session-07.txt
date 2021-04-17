@@ -1,0 +1,222 @@
+Fundametals of JS 
+Ajax & JSON 
+DOM 
+
+
+- Variable scoping, with same variable names  - nitin 
+    
+	const
+	let 
+	var - global specific cases local 
+
+- calling by element by id and class / query selector, queryselectorall -sowmya 
+
+document.getElementById("id"); - returns single elemene only for id 
+document.querySelector("#id") or document.querySelectory(".class")- for class or id 
+document.querySelectorAll("div") - all the mathching divs are given 
+document.getElementByTagName("p") - all para 
+document.getElementByClassName("someclass") - Element with the specific class is returned 
+
+- why JSON over XML - nitin 
+
+
+1999 - W3C 
+
+html - display 
+css
+js
+XML - discription 
+	Xpath 
+	xsl 
+	xslt 
+	xsd 
+
+<?xml version="1.0"?>
+<class>
+	<participants>
+		<participant>
+			<name>Sowmya</name>
+			<address>
+				<hno>123</hno>
+				<city>bengaluru</city>
+				<state>Karnataka</state>
+			</address>
+		</participant>
+		
+		<participant>
+			<name>Sowmya</name>
+			<address>
+				<hno>123</hno>
+				<city>bengaluru</city>
+				<state>Karnataka</state>
+			</address>
+		</participant>
+	</participants>
+	
+	<projector>
+	</projector>
+</class>
+
+
+DOM / SAX / StAX 
+
+json 
+
+
+class :  {
+	participants: [
+		{
+			name:"Sowmya", 
+			address:{
+				hno:123, 
+				city:"Bengaluru", 
+				state:"Karnataka"
+			}
+		}, {
+			name:"Anuarag", 
+			address:{
+				hno:123, 
+				city:"Bengaluru", 
+				state:"Karnataka"
+			}
+		}
+	]
+}
+
+SAX, StAX, DOM - it is treted as object 
+
+ 
+
+- why we do compressing json / js/ css - swomya 
+- how to decide JS is used for SPA - abhinav 
+	Single Page Application 
+	
+- functions & object (classes are functions) - Ritvik 
+- what is callback function - nitin 
+
+
+
+
+function hello(name) {
+	console.log("Hello Mr/Ms/Mrs: ", name)
+}
+
+function againHello(newName, callback) {
+	console.log("New Name ", newName)
+	callback(newName)
+}
+
+ againHello ("peter", hello("Harry"))
+
+
+
+
+function myfunction(resolve, reject) {
+	
+}
+
+myfunction(
+	() => {
+		some data goes here 
+	}, 
+	() => {
+		some data goes here 
+	})
+
+
+
+
+
+
+first.c 
+
+extern x = 10; 
+
+main() {
+	printf(x)
+	printf(x)
+	
+	pntf(x)
+	printf(x)
+}
+
+hi() {
+	printf(x)
+}
+
+1. Compile - Object 
+2. Execute - Run 
+
+
+
+MVP - 
+
+1. Use Case - Tuesday 
+2. Data Model - Thursday 
+
+
+HTML / CSS / JS - Front End 
+Java/ Spring Boot - Application Logic 
+MongoDB - DB 
+
+
+Browse for a movie and theater
+
+
+{
+	title: "DDLJ", 
+	duration: 120, 
+	star-cast : ["Actor1", "Actor2", "Action3"], 
+	languages: ["Hindi"], 
+	type:"2D", 
+	production:"abc", 
+	directors:[], 
+	movie-jouner : "action", drama, 
+	minAge:16, 
+	critics: [
+		{
+			name:"Sahin", 
+			stars:1/2/3/4/5, 
+			critic-message:"this is nice movie", 
+			date-time:system-details
+		},
+		{
+			name:"Suyash", 
+			stars:1/2/3/4/5, 
+			critic-message:"this is not nice movie", 
+			date-time:system-details
+		}
+	]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
