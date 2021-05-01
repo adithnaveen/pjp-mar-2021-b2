@@ -1,0 +1,103 @@
+Anchors (POD)
+	1. (ROOM1) - Book a Movie Ticket, Payment and Ticket confirmation
+		- Nitin 
+		- Anurag 
+		- Ritvik 
+		- Soumya 
+	2.(ROOM2)- Browse for a theatre and book movie, Bookig History
+		- Bhavya 
+		- Priyadarshan 
+		- Ayushdeep 
+		- Kanika 
+		- Shresth kumar 
+	3.  (ROOM3) - Login/SignUp, Add, modify or remove movies or theater 
+		- Jaswanth
+		- sachin 
+		- Shashank 
+		- Prathush 
+		- Wasim 
+		- Karmanya 
+	4.  (ROOM4) - Contact us, 
+				  Movies scheduling and seats availability, 
+				  Add, modify or remove movies or theater 
+		- Aarshwardhan
+		- Mayank 
+		- Abhinav 
+		- Pushkar 
+	
+	
+		
+	
+ Contact us
+ - DB Table (Have you data up)
+ - BL - 
+ - View 
+ 	
+	
+	
+Movies scheduling and seats availability
+	
+1. Admin Table - login / Create 
+2. Admin should be able to create threater 
+3. Every theater should have seating capacity 
+4. slots 
+	 
+	
+	Movies
+	Theater 
+	Screen 
+	Show
+	
+	
+There is Theater Called PVR 
+		- 4 Screen 
+			1 - 10:30 to 1, 1:15 to 4:15, 4:30 to 7:00, 7:15 to 10:00PM 
+			2 - 10:30 to 1, 1:15 to 4:15, 4:30 to 7:00, 7:15 to 10:00PM
+			3 - 10:30 to 1, 1:15 to 4:15, 4:30 to 7:00, 7:15 to 10:00PM
+			4 - 10:30 to 1, 1:15 to 4:15, 4:30 to 7:00, 7:15 to 10:00PM
+
+From Date : PVR - BENGALURU- SCREEN 1-  24-Apr-2021, To Date : 28-Apr-2021 
+		 - Movie (Movie 1)
+
+
+
+
+1. Create a Excel sheet with Table Name / Attribute's / Sample Data - Monday
+2. Create Table from Excel Sheet - Tuesday
+3. Insert Sample data to DBMS (MySQL) - Thursday 
+4. Write required Queries 
+
+	
+	
+Front End  - Html / CSS / JavaScript + boot strap 
+Application Logic - JAVA 8/11, JDBC 
+Back End : MySQL 
+	
+
+	
+Jersey 
+RestLet 
+RestEasy
+SpringBoot 
+
+	
+	
+Closure on Problem Statement - Movie Reservation System 
+Define Milestone
+Create POD 
+Work Distribution
+	
+	
+	
+1. Participants are expected to decide the user stories. - Done 
+2. Identify the use cases for different actors in the system. - Done 
+4. Seed the sample data to DBMS  and if needed participants have  to put the data in MS-Excel and keep it handy. 
+3. Normalize the data and come out with ER- Diagram. 
+
+	
+	
+	
+	
+	
+	
+	
