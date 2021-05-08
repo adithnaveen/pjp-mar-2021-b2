@@ -2,4 +2,7 @@
 /**/target/
 workspace/jdbc-works/.settings
 
+*.zip
+
+
 

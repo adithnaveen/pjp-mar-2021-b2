@@ -1,0 +1,45 @@
+POD 1
+	Nitin 
+	Title - Book a Movie Ticket 
+	Title - Payment and Ticket confirmation 
+	UserID	CinemaId	ScreenId	ShowID (FK)
+	
+POD 2
+	Bhavya 
+
+POD 3
+	Jaswanth 
+	
+POD 4
+	Aarsh Vardhan - Mayank Arora 
+		
+
+There is no partial cancellation 
+MAX No of Seats - 6 
+
+1. Integrate all the data models make it as single page 
+2. Tables + Sample Values to go in MySQL 
+2.1. Maven Project 
+3. We have create Java - JDBC (POJO) to CRUD operations  with 
+	DBMS 
+4. Writing Test Cases for the same 
+
+	
+
+create table feedback(
+	fid int primary key, 
+	type varchar(30), 
+	comment varchar(60) not null, 
+	status varchar(1)
+)
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
