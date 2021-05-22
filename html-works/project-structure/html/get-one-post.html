@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/prj-style.css">
+    <script src="../js/util.js"></script>
+    <script src="../js/json-posts.js"></script>
+</head>
+
+<body>
+    <div>
+        <nav>
+            <h1>Welcome to Movie Booking Site</h1>
+        </nav>
+    </div>
+    <hr>
+    <a href="../index.html">Home</a>
+    <hr>
+    <div>
+        <label for="post-id">Enter Post ID</label>
+        <input type="text" id="post-id">
+        <button onclick="getPostById()">GO>></button>
+    </div>
+
+    <div class="container">
+        <div class="content">
+            <label for="userid">User Id</label>
+            <span id="userid"></span>
+        </div>
+        <div class="content">
+            <label for="title">Title</label>
+            <span id="title"></span>
+        </div>
+        <div class="content">
+            <label for="body">Body</label>
+            <span id="body"></span>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

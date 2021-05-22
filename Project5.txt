@@ -1,0 +1,55 @@
+1. 
+	Services(Java - SpringBoot)
+pod1
+	controller (DB) - Ritvik
+pod2 
+	controller (DB) - Ayushdeep 
+pod3 
+	controller (DB) - Jaswanth 
+pod4 
+	controller (DB) - Aarsh 
+	-> merge it -> master (DB)
+
+the merging has not happened, by today i.e., 22-may-2021 it should be done 
+
+
+http://localhost:8080/login 
+http://localhost:8080/register
+http://localhost:8080/booking
+
+git clone <repo URL>
+git checkout master 
+
+
+
+2. have we freezed on the pages what every body will do  - validate 
+	pod 1 has basic layouting of the screens 
+		movie booking, show ticket, boot seats 
+
+	pod 2 - could not see the output, the basic layout was shown on github 
+	very less work 
+	https://github.com/PS-PJP-Batch2/Movie-Booking-Frontend/tree/pod2
+
+	pod 3 
+		sign up sceen, login page, profile page 
+		could see jaswanth code other team members had college works 
+		
+	pod 4 
+		have got the layout for add theather, nav bar, 
+
+
+3. UI - Services and GET / POST the data 
+
+
+
+
+
+
+
+
+
+
+
+
+
+

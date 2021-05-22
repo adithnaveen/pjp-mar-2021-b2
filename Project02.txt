@@ -1,0 +1,168 @@
+POD1
+	
+	/**
+	*@author nithin 
+	*/
+	
+	the application is working with CLI / Test cases 
+	to integrate & ?? resolve the dependecies if you have 
+
+
+POD2
+	
+need theater table data + filter for movies / theater also 
+
+
+
+
+class Names - Pascal Casing (First Char is upper 
+				& next word first char upper case )
+				Ex: EmployeeDAO, ProcessSalary
+				
+camel case : methods / variables 
+	getEmployee 
+	getEmployeeId 
+	
+	empId; 
+	
+const - upper case 
+package - lower case 
+	
+
+
+
+
+
+
+class Name {
+	private String fName; 
+	private String mName; 
+	private String lName; 
+}
+class Employee {
+	private int empId; 
+	private Name name;
+	private double salary; 
+}
+
+class Customer{
+	private int custId; 
+	private Name name; 
+	private double income; 
+}
+
+
+
+
+
+public class GetProperties {
+	private Properties props = new Properties(); 
+	
+	public static getDBProps(String fieldName) {
+			props.load("db.properties"); 
+			return props.get(fieldName)
+	}
+}
+ 
+
+
+
+
+
+
+
+public class ShowDao implements IShowDAO {
+
+    private Properties queries = null;
+
+    public ShowDao() {
+         queries = new Properties();
+
+        try {
+            queries.load(new FileInputStream("src/main/resources/sql.properties"));
+										1000 
+										
+			GetProperties.getDBProps("INSERT")
+			GetConnection.getMySQL().prepareStatement(queries.getProperty("INSERT")).
+					executeUpdate();
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+    }
+
+
+
+
+Statement - execute 
+PreparedStatement - executeUpdate + executeBatch 
+
+
+
+   if(val){
+		   	return ps.executeUpdate()>0;
+		   }
+
+
+
+1000 / sec 
+bookingn () {
+	query seats - read 
+	check price - read 
+	update booking - mutation 
+	db network failure 
+	update show tables - mutation 
+}
+
+executeBatch 
+
+transfer money from 1 to another account 
+
+
+jersey 
+restlet 
+resteasy 
+spring boot 
+
+
+start.spring.io
+
+REST - JSON 
+
+
+GSON - Google Json
+Jackson - convert java to json - json to java 
+
+
+
+
+
+
+com.project.movies
+com.project.movies.interface
+com.project.movies.exception
+com.project.movies.entity
+
+
+
+GET - search / reading 
+POST - writing 
+PUT - update 
+DELETE - delete 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

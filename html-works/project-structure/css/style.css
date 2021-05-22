@@ -1,0 +1,46 @@
+    /* small  screen */
+
+    .bigscreen {
+        display: none;
+    }
+
+    .smallscreen {
+        display: block;
+    }
+
+
+    img {
+        width: 200px;
+        height: 100px;
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        margin: 0px 10px;
+        color: blue;
+    }
+
+    /* big screen */
+    @media screen and (min-width:1000px) {
+        .bigscreen {
+            display: block;
+        }
+
+        .smallscreen {
+            display: none;
+        }
+
+
+        img {
+            width: 300px;
+            height: 150px;
+        }
+
+        body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: 900;
+            margin: 0px 20px;
+            color: orange
+        }
+    }
